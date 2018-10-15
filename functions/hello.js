@@ -5,5 +5,5 @@ exports.handler = function(event, context, cb) {
       statusCode: 200,
       body: moment().format()
     });
-    console.log("きてるよ")
+    console.log("きてるよ!")
   }
